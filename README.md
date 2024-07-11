@@ -63,9 +63,9 @@ O conjunto de dados utilizado neste projeto contém as seguintes colunas:
 ## Principais Análises Realizadas
 
 - **Análise Exploratória de Dados (EDA)**:
- - Exploração dos dados para entender suas características e distribuições.
+  - Exploração dos dados para entender suas características e distribuições.
 - **Insights**:
- - Construção e análises de perguntas relacionadas ao comportamento dos dados como, tendências, agrupamentos, correlações e análises de impacto.
+  - Construção e análises de perguntas relacionadas ao comportamento dos dados como, tendências, agrupamentos, correlações e análises de impacto.
 - **Modelagem Preditiva**:
   - Regreção Linear, Random Forest, Lasso e XGBoost para prever a classificação do IMDb.
 
