@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Este projeto envolve a análise de um conjunto de dados de filmes do IMDb. O objetivo é explorar e analisar os dados para obter insights sobre diferentes aspectos dos filmes, como receita bruta, classificações do IMDb, duração, etc. Também inclui a construção de um modelo de previsão do IMDb de um filme com base em várias características.
+Este projeto envolve a análise de um conjunto de dados de filmes do IMDb, cujo objetivo é explorar e analisar os dados para obter insights sobre diferentes aspectos dos filmes, como receita bruta, classificações do IMDb, duração, etc. Também inclui a construção de um modelo de previsão do IMDb de um filme com base em várias características.
 
 ## Estrutura do Projeto
 
@@ -29,7 +29,7 @@ O conjunto de dados utilizado neste projeto contém as seguintes colunas:
 - `Star3`: Terceira estrela principal
 - `Star4`: Quarta estrela principal
 - `No_of_Votes`: Número de votos no IMDb
-- `Meta_score`: Pontuação do Metacritic
+- `Meta_score`: Pontuação do Metacritic (críticos de cinema)
 - `Gross_Revenue`: Receita bruta do filme
 
 ## Instalação
@@ -62,8 +62,10 @@ O conjunto de dados utilizado neste projeto contém as seguintes colunas:
 
 ## Principais Análises Realizadas
 
-- **Análise Exploratória de Dados (EDA)**: Exploração dos dados para entender suas características e distribuições.
-- **Insights**: Construção e análises de perguntas relacionadas ao comportamento dos dados como, tendências, agrupamentos, correlações e análises de impacto.
+- **Análise Exploratória de Dados (EDA)**:
+ - Exploração dos dados para entender suas características e distribuições.
+- **Insights**:
+ - Construção e análises de perguntas relacionadas ao comportamento dos dados como, tendências, agrupamentos, correlações e análises de impacto.
 - **Modelagem Preditiva**:
   - Regreção Linear, Random Forest, Lasso e XGBoost para prever a classificação do IMDb.
 
@@ -78,9 +80,7 @@ O conjunto de dados utilizado neste projeto contém as seguintes colunas:
 
 Este projeto fornece uma visão abrangente dos dados de filmes do IMDb e demonstra como técnicas de ciência de dados podem ser aplicadas para extrair insights valiosos e construir modelos preditivos. Para estudos futuros estão a coleta de novos dados para abastecer o modelo e ampliar a capacidade de engenharia de features, a aplicação de novas ferramentas para melhorar os hiperparâmetros e adicionar etapas de cross validation para uma melhor precisão da análise. 
 
-## Contribuições
-
-Contribuições são bem-vindas!
 
 ## Ferramentas
+
 Python, Jupyter Notebook
